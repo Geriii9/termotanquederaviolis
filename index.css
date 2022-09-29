@@ -7,7 +7,8 @@ body {
 #titulo {
   background-color: rgb(15, 12, 12);
 }
+
 .titulo {
-    text-align: center;
-    background-color: aqua !important;
-  } 
+  text-align: center;
+  background-color: aqua !important;
+}
