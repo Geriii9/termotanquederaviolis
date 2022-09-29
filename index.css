@@ -3,18 +3,14 @@ body {
   text-align: center;
 }
 
-
 #titulo {
   background-color: rgb(81, 255, 0);
 }
 
 .titulo {
-<<<<<<< HEAD
   text-align: center;
   background-color: aqua !important;
+
+  text-align: center;
+  background-color: rgb(240, 129, 255) !important;
 }
-=======
-    text-align: center;
-    background-color: rgb(240, 129, 255) !important;
-  } 
->>>>>>> aca9457 ( cambios de color de todo)
