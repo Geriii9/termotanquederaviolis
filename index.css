@@ -1,1 +1,13 @@
- 
+body {
+  background-color: blue;
+  text-align: center;
+}
+
+
+#titulo {
+  background-color: rgb(15, 12, 12);
+}
+.titulo {
+    text-align: center;
+    background-color: aqua !important;
+  }
