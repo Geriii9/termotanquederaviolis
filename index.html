@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css">
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="titulo">
-      <h1 id="titulo">Esta es la pagina web para el primer proyecto de M12</h1>
-    </div>
-    <div id="p1">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="titulo">
+    <h1 id="titulo">Esta es la pagina web para el primer proyecto de M12</h1>
+  </div>
+  <div id="p1">
     <p>Constará de varias páginas explicando como hemos creado un servidor a partir del uso de Proxmox y Apache</p>
     <h2>Instalación Proxmox</h2>
     <p>Primero hemos buscado la ISO del sistema operativo proxmox,<br>
@@ -20,37 +22,37 @@
       instalar la ISO que era un pendrive y flasheamos la ISO. Cuando<br>
       ya teniamos la ISO en el pedrive, conectamos el pendrive en el<br>
       ordenador donde queriamos instalar el sistema operativo.<br>
-      Después de conectar el pendrive abrimos la BIOS y<br> 
+      Después de conectar el pendrive abrimos la BIOS y<br>
       seleccionamos el dispositivo de arranque, que en este caso es el<br>
       USB que contiene la ISO. Una vez ya tenemos el ordenador encendido<br>
-      con el USB dentro configuramos paso por paso el nuevo SO(idioma,<br>      
+      con el USB dentro configuramos paso por paso el nuevo SO(idioma,<br>
       tipo de teclado, IPs...). Una vez con todo esto hecho ya podemos<br>
       pasar al siguiente paso.
-      </p>
+    </p>
 
-    </div>
-    <div id="p2">
-      <h2>Configuración del servidor en Proxmox</h2>
-    <p> Una vez Proxmox está instalado nos dará una IP, la cual será la  que<br>
+  </div>
+  <div id="p2">
+    <h2>Configuración del servidor en Proxmox</h2>
+    <p> Una vez Proxmox está instalado nos dará una IP, la cual será la que<br>
       deberemos poner en el buscador de nuestro navegador para acceder a<br>
       la pantalla de configuración, allí es dónde configuraremos nuestro<br>
       servidor para la página web. Lo que nosotros hemos hecho a sido crear<br>
       un contenedor, ya que es más fácil de manejar, i dentro poner una imagen<br>
       del sistema operativo ubuntu.<br>
-      Ya dentro del contenedor instalamos el apache, el cual es el siguiente paso.<br> 
+      Ya dentro del contenedor instalamos el apache, el cual es el siguiente paso.<br>
     </p>
   </div>
   <div id="p3">
     <p>
-      <h2>Instalación de la píldora Apache</h2>
-      Para instalar esta píldora dentro de nuestro contenedor pusimos el comando<br>
-      <i><b>sudo apt install apache2</b></i>, no hay mucho más que decir en esta parte<br>
-      asi que vamos a configurar esta píldora.  
+    <h2>Instalación de la píldora Apache</h2>
+    Para instalar esta píldora dentro de nuestro contenedor pusimos el comando<br>
+    <i><b>sudo apt install apache2</b></i>, no hay mucho más que decir en esta parte<br>
+    asi que vamos a configurar esta píldora.
     </p>
   </div>
-    <div id="p4">
-      <h2>Configuración de la píldora Apache</h2>
-      <pre>
+  <div id="p4">
+    <h2>Configuración de la píldora Apache</h2>
+    <pre>
         Esta píldora ha sido complicado para nosotros, principalmente
         porque daba muchos errores a la hora de poner el comando, además no guardaba
         los datos proporcionados al documento editado, pero al final conseguimos
@@ -59,11 +61,11 @@
         el código html. Una vez terminado el código, guardamos y cerramos el
         documento y nos disponemos a editar el archivo de configuración, concretamente
         el serveradmin y el nombre.
-      </pre> 
-    </div>
-    <p>https://i.pinimg.com/736x/52/a1/39/52a1393ea370fe85c9e768847ac1a0c3--technology-wallpaper-alienware.jpg</p>
+      </pre>
+  </div>
+  <p>https://i.pinimg.com/736x/52/a1/39/52a1393ea370fe85c9e768847ac1a0c3--technology-wallpaper-alienware.jpg</p>
 
-<<<<<<< HEAD
+
   <p>
   <h2>Instalación de la píldora Apache</h2>
   Para instalar esta píldora dentro de nuestro contenedor pusimos el comando<br>
@@ -110,20 +112,3 @@
 </body>
 
 </html>
-=======
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <h3>Definiciones</h3>
-    <h4>Proxmox</h4>
-    <p>Proxmox es un sistema operativo de código abierto que puede contener máquinas virtuales y contenedores para utilizarlas fácilmente, es por esto que es uno de los mejores SO para crear páginas web como estamos haciendo.</p>
-    <h4>BalenaEtcher</h4>
-    <p>Es una herramienta importante para instalar sistemas operativos en ordenadores, ya que este programa te permite flasehar la ISO(la imagen del sistema operativo) en un USB para más tarde usarla en otro ordenador y instalarle el SO prevamiente instalado en el USB.</p>
-    <h4>Apache</h4>
-    <p>Este es el servicio qué hemos usado para crear la página web, ya que nos permite, a través de una IP dada por la máquina, esta página sea accesible a todo el mundo</p>
-    <p>TermoTanqueDeRaviolis</p>
-  </body>
-</html>
->>>>>>> 5ec8813 (test)
