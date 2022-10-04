@@ -1,8 +1,3 @@
-::-webkit-scrollbar {
-
-  display: none;
-
-}
 body {
   background-color: #A7ACD9;
   text-align: center;
@@ -22,6 +17,4 @@ body {
 h2 {
   background-color: #93C6D6;
 }
-
-
 
