@@ -13,7 +13,7 @@
   <div class="titulo">
     <h1 id="titulo">Esta es la pagina web para el primer proyecto de M12</h1>
   </div>
-  <div id="p1">
+  <div>
     <p>Constará de varias páginas explicando como hemos creado un servidor a partir del uso de Proxmox y Apache</p>
     <h2>Instalación Proxmox</h2>
     <p>Primero hemos buscado la ISO del sistema operativo proxmox,<br>
@@ -31,40 +31,15 @@
     </p>
 
   </div>
-  <div id="p2">
-    <h2>Configuración del servidor en Proxmox</h2>
-    <p> Una vez Proxmox está instalado nos dará una IP, la cual será la que<br>
-      deberemos poner en el buscador de nuestro navegador para acceder a<br>
-      la pantalla de configuración, allí es dónde configuraremos nuestro<br>
-      servidor para la página web. Lo que nosotros hemos hecho a sido crear<br>
-      un contenedor, ya que es más fácil de manejar, i dentro poner una imagen<br>
-      del sistema operativo ubuntu.<br>
-      Ya dentro del contenedor instalamos el apache, el cual es el siguiente paso.<br>
-    </p>
-  </div>
-  <div id="p3">
-    <p>
-    <h2>Instalación de la píldora Apache</h2>
-    Para instalar esta píldora dentro de nuestro contenedor pusimos el comando<br>
-    <i><b>sudo apt install apache2</b></i>, no hay mucho más que decir en esta parte<br>
-    asi que vamos a configurar esta píldora.
-    </p>
-  </div>
-  <div id="p4">
-    <h2>Configuración de la píldora Apache</h2>
-    <pre>
-        Esta píldora ha sido complicado para nosotros, principalmente
-        porque daba muchos errores a la hora de poner el comando, además no guardaba
-        los datos proporcionados al documento editado, pero al final conseguimos
-        poder editar el apache con estos comandos: <i><b>cd /var/www/gci/</b></i>
-        y <i><b>nano index.html.</b></i>Una vez dentro del archivo, ponemos
-        el código html. Una vez terminado el código, guardamos y cerramos el
-        documento y nos disponemos a editar el archivo de configuración, concretamente
-        el serveradmin y el nombre.
-      </pre>
-  </div>
-  <p>https://i.pinimg.com/736x/52/a1/39/52a1393ea370fe85c9e768847ac1a0c3--technology-wallpaper-alienware.jpg</p>
-
+  <h2>Configuración del servidor en Proxmox</h2>
+  <p> Una vez Proxmox está instalado nos dará una IP, la cual será la que<br>
+    deberemos poner en el buscador de nuestro navegador para acceder a<br>
+    la pantalla de configuración, allí es dónde configuraremos nuestro<br>
+    servidor para la página web. Lo que nosotros hemos hecho a sido crear<br>
+    un contenedor, ya que es más fácil de manejar, i dentro poner una imagen<br>
+    del sistema operativo ubuntu.<br>
+    Ya dentro del contenedor instalamos el apache, el cual es el siguiente paso.<br>
+  </p>
 
   <p>
   <h2>Instalación de la píldora Apache</h2>
@@ -106,9 +81,6 @@
   <p>Este es el servicio qué hemos usado para crear la página web, ya que nos permite, a través de una IP dada por la
     máquina, esta página sea accesible a todo el mundo</p>
   <p>TermoTanqueDeRaviolis</p>
-  <!-- This is the end of HTML -->
-  <!-- Para subir cosas y que la podamos actualizar todos el documento 
-  git status / git add . / git status / git commit -m "" / git push-->
 </body>
 
 </html>
