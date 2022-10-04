@@ -1,10 +1,10 @@
 body {
-  background-color: rgb(185, 253, 255);
+  background-color: #A7ACD9;
   text-align: center;
 }
 
 #titulo {
-  background-color: rgb(225, 0, 255);
+  background-color: #9E8FB2 ;
 }
 
 .titulo {
@@ -13,4 +13,7 @@ body {
 
   text-align: center;
   background-color: rgb(240, 129, 255) !important;
+}
+h2 {
+  background-color: #93C6D6;
 }
