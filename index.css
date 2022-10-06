@@ -22,16 +22,15 @@ h2 {
 
 
 /* we are testing the css code  */
-<<<<<<< HEAD
-=======
+
 
 body {
   overflow-x: visible;
-  overflow-y:visible;
+  overflow-y: visible;
 
 }
 
->>>>>>> 9ce893d (mhnjhj)
+
 .container {
   display: flex;
   width: 100%;
@@ -51,22 +50,22 @@ body {
 
 .box>img {
   width: 200%;
-<<<<<<< HEAD
+
   height: calc(100% - 10vh);
-=======
+
   height: calc(90% - 10vh);
->>>>>>> 9ce893d (mhnjhj)
+
   object-fit: cover;
   transition: .5s;
 }
 
 .a>img {
   width: 200%;
-<<<<<<< HEAD
+
   height: calc(100% - 10vh);
-=======
+
   height: calc(90% - 10vh);
->>>>>>> 9ce893d (mhnjhj)
+
   object-fit: cover;
   transition: .5s;
 }
@@ -86,12 +85,11 @@ body {
 .box:hover>img {
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
+
 }
 
 .a:hover>img {
   width: 100%;
   height: 100%;
-=======
->>>>>>> 9ce893d (mhnjhj)
+
 }
