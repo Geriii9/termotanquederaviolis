@@ -24,11 +24,13 @@ h2 {
 /* we are testing the css code  */
 
 
-body {
-  overflow-x: visible;
-  overflow-y: visible;
 
+body {
+  background-image: url("paper.gif");
+  background-color: #cccccc;
 }
+
+
 
 
 .container {
