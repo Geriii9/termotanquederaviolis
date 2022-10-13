@@ -26,8 +26,8 @@ h2 {
 
 
 body {
-  background-image: url("paper.gif");
-  background-color: #cccccc;
+  /* background-image: url("https://img.freepik.com/fotos-premium/programacion-sistema-usando-lenguaje-programacion_537132-369.jpg"); */
+  background-color: rgba(204, 204, 204, 0);
 }
 
 
@@ -48,6 +48,7 @@ body {
   margin: 0 2%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
   line-height: 0;
+  background-color:#cccc;
 }
 
 .box>img {
