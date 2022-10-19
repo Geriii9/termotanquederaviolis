@@ -107,6 +107,16 @@ body {
   font-size: medium;
 }
 
+.text2 {
+  text-align: center;
+  color: rgb(37, 102, 42);
+  text-shadow: none;
+  padding: auto;
+  margin: 5%;
+  letter-spacing: 3px;
+  font-size: medium;
+}
+
 
 
 
