@@ -186,3 +186,30 @@ body {
   height: 100%;
 
 }
+
+a>p {
+  color: chartreuse;
+}
+
+a:link {
+  color: rgb(41, 226, 66);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+
+}
+
+a:link,
+a:visited {
+  color: rgb(226, 41, 41);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  color: rgb(0, 247, 255);
+}
