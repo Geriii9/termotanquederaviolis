@@ -1,0 +1,49 @@
+h2 {
+    position: relative;
+    left: 9%;
+
+}
+
+p {
+   
+    position: relative;
+    bottom: 150px;
+text-align: right;
+}
+.des{
+    text-align: left;  
+}
+
+
+img {
+    width: 210px;
+    height: 200px;
+    border-radius: 60%;
+}
+
+.column {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    height: 50%;
+    background-color: rgb(110, 21, 21);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Abdo {
+    background-color: rgb(22, 24, 136);
+}
+
+.Adrian {
+    background-color: rgb(152, 152, 167);
+}
+
+.Gerard {
+    background-color: rgb(157, 209, 144);
+}
