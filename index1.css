@@ -5,20 +5,21 @@ h2 {
 }
 
 p {
-   
+
     position: relative;
     bottom: 150px;
-text-align: right;
+    text-align: right;
 }
-.des{
-    text-align: left;  
+
+.des {
+    text-align: left;
 }
 
 
 img {
     width: 210px;
     height: 200px;
-    border-radius: 60%;
+    border-radius: 200px;
 }
 
 .column {
@@ -28,6 +29,7 @@ img {
     padding: 15px;
     height: 500px;
     background-color: rgb(110, 21, 21);
+    margin: 3px;
 }
 
 .row:after {
