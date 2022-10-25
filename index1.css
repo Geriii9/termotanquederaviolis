@@ -24,9 +24,9 @@ img {
 .column {
     box-sizing: border-box;
     float: left;
-    width: 33.33%;
+    width: 440px;
     padding: 15px;
-    height: 50%;
+    height: 500px;
     background-color: rgb(110, 21, 21);
 }
 
