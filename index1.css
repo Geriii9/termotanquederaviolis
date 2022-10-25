@@ -22,17 +22,12 @@ img {
     border-radius: 200px;
 }
 
-.row {
-    position: relative;
-    left: 30px;
-
-}
 
 .column {
     box-sizing: border-box;
     float: left;
     left: 1000px;
-    width: 430px;
+    width: 445px;
     padding: 15px;
     height: 500px;
     background-color: rgb(110, 21, 21);
