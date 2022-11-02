@@ -1,32 +1,4 @@
-/* body {
-  background-color: #A7ACD9;
-  text-align: center;
-}
-
-#titulo {
-  background-color: #9E8FB2 ;
-}
-
-.titulo {
-  text-align: center;
-  background-color: rgb(62, 185, 185) !important;
-
-  text-align: center;
-  background-color: rgb(240, 129, 255) !important;
-}
-h2 {
-  background-color: #93C6D6;
-}
- */
-
-
-
-/* we are testing the css code  */
-
-
-
 body {
-  /* background-image: url("https://img.freepik.com/fotos-premium/programacion-sistema-usando-lenguaje-programacion_537132-369.jpg"); */
   background-color: rgba(204, 204, 204, 0);
 }
 
@@ -35,7 +7,7 @@ body {
 .container {
   display: flex;
   width: 100%;
-  padding: 4% 2%;
+  padding: 6% 0%;
   box-sizing: border-box;
   height: 100vh;
 }
@@ -107,7 +79,7 @@ body {
   font-size: medium;
 }
 
-.text2 {
+/* .text2 {
   text-align: center;
   color: rgb(37, 102, 42);
   text-shadow: none;
@@ -115,37 +87,4 @@ body {
   margin: 5%;
   letter-spacing: 3px;
   font-size: medium;
-}
-
-/* .a:hover>img {
-  width: 100%;
-  height: 100%;
-
-}
-
-a>p {
-  color: chartreuse;
-}
-
-a:link {
-  color: rgb(41, 226, 66);
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-
-
-}
-
-a:link,
-a:visited {
-  color: rgb(226, 41, 41);
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover {
-  color: rgb(0, 247, 255);
 } */
