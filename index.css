@@ -32,7 +32,6 @@ body {
 
 
 
-
 .container {
   display: flex;
   width: 100%;
@@ -49,6 +48,7 @@ body {
   box-shadow: 0 20px 30px rgba(0, 0, 0, .1);
   line-height: 0;
   background-color: #cccc;
+  align-items: center;
 }
 
 .box>img {
@@ -116,6 +116,7 @@ body {
   letter-spacing: 3px;
   font-size: medium;
 }
+I
 
 
 
@@ -186,7 +187,7 @@ body {
   height: 100%;
 
 }
-
+<<<<<<< HEAD
 
 a>p {
   color: chartreuse;
@@ -214,3 +215,5 @@ a:visited {
 a:hover {
   color: rgb(0, 247, 255);
 }
+=======
+>>>>>>> eede985 (descripcion seccion1 sobre nosotros)
