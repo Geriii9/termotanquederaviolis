@@ -90,3 +90,9 @@ body {
   width: 45%;
   height: 45%;
 }
+
+ .proxmox1 {
+  width: 45%;
+  height: 45%;
+  box-align: right;
+}
