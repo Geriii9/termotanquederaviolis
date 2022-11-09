@@ -92,13 +92,13 @@ body {
 }
 
  .proxmox1 {
-  width: 45%;
-  height: 45%;
+  width: 35%;
+  height: 35%;
   box-align: left;
 }
 
 .proxmox2 {
-  width: 45%;
-  height: 45%;
+  width: 35%;
+  height: 35%;
   box-align: right;
 }
