@@ -1,5 +1,6 @@
 body {
   background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
+padding:-10px  ;
 }
 .container {
   display: flex;
@@ -101,4 +102,9 @@ body {
   width: 35%;
   height: 35%;
   box-align: right;
+}
+
+.back{
+  width:55px;
+  height:55px;
 }
