@@ -26,9 +26,9 @@ body {
     border-radius: 3px;
     transition: .2s all;
 }
-.column_d{
+/* .column_d{
     
-}
+} */
 
  .row:hover .column {
     filter: blur(3px);
