@@ -137,7 +137,8 @@ h1 {
   font-weight: normal;
 }
 
------------------- .text2 h4 {
+------------------ 
+.text2 h4 {
   position: relative;
   overflow: hidden;
   display: block;
