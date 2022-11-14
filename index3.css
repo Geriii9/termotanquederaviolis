@@ -1,0 +1,6 @@
+.rotate :hover
+{
+-webkit-transform:rotateZ (-30deg);
+-ms-transform:rotateZ (-30deg);
+transform:rotateZ (-30deg);
+}
