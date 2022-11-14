@@ -92,18 +92,6 @@ body {
   font-size: medium;
 }
 -----------------
-.proxmox1 {
-  width: 35%;
-  height: 35%;
-  box-align: left;
-}
-
-.proxmox2 {
-  width: 35%;
-  height: 35%;
-  box-align: right;
-}
-
 .text2 {
   box-sizing: border-box;
 }
