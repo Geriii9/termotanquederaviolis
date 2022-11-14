@@ -5,7 +5,8 @@ body {
   padding: -10px;
 }
 
-.text2 {
+
+ .text2 {
   text-align: center;
   color: rgb(37, 102, 42);
   text-shadow: none;
@@ -13,7 +14,7 @@ body {
   margin: 5%;
   letter-spacing: 3px;
   font-size: medium;
-}
+  }
 
 .back {
   width: 55px;
@@ -22,14 +23,15 @@ body {
 }
 
 
-.text2 h4 {
+.text2 h2 {
     position: relative;
     overflow: hidden;
     display: block;
     line-height: 1.2;
   }
   
-  .text2 h4::after {
+  .text2 h2::after {
+    
     content: '';
     position: absolute;
     top: 0;
@@ -39,9 +41,10 @@ body {
     background: rgb(36, 89, 204);
     animation: a-ltr-after 2s cubic-bezier(.77, 0, .18, 1) forwards;
     transform: translateX(-101%);
+    color:aqua;
   }
   
-  .text2 h4::before {
+  .text2 h2::before {
     content: '';
     position: absolute;
     top: 0;
@@ -53,32 +56,32 @@ body {
     transform: translateX(0);
   }
   
-  .text2 h4:nth-of-type(1)::before,
-  .text2 h4:nth-of-type(1)::after {
+  .text2 h2:nth-of-type(1)::before,
+  .text2 h2:nth-of-type(1)::after {
     animation-delay: 0s;
   }
-  
-  .text2 h4:nth-of-type(2)::before,
-  .text2 h4:nth-of-type(2)::after {
+  s
+  .text2 h2:nth-of-type(2)::before,
+  .text2 h2:nth-of-type(2)::after {
     animation-delay: 0s;
   }
   
   @keyframes a-ltr-after {
     0% {
-      transform: translateX(-100%)
+      transform: translateX(-100%);
     }
   
     100% {
-      transform: translateX(101%)
+      transform: translateX(101%);
     }
   }
   
   @keyframes a-ltr-before {
     0% {
-      transform: translateX(0)
+      transform: translateX(0);
     }
   
     100% {
-      transform: translateX(200%)
+      transform: translateX(200%);
     }
   }
