@@ -85,10 +85,10 @@ body {
     100% {
       transform: translateX(200%);
     }
-<<<<<<< HEAD
+
   }
-=======
-  }
+
+  
 
 .imagen:hover{
   border-radius:50%;
@@ -100,4 +100,4 @@ body {
   box-align: left;
   
 }
->>>>>>> 0bf9aa8 (.)
+
