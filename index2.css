@@ -9,11 +9,6 @@ body {
     letter-spacing: 3px;
     font-size: medium;
   }
-.proxmox1 {
-    width: 35%;
-    height: 35%;
-    box-align: left;
-  }
   
 .proxmox2 {
     width: 35%;
@@ -24,7 +19,7 @@ body {
     width: 55px;
     height: 55px;
   }
-  .text2 h2 {
+.text2 h2 {
     position: relative;
     overflow: hidden;
     display: block;
@@ -39,10 +34,9 @@ body {
     right: 0;
     width: 100%;
     height: 100%;
-    background: rgb(36, 89, 204);
+    background: rgb(118, 155, 236);
     animation: a-ltr-after 2s cubic-bezier(.77, 0, .18, 1) forwards;
     transform: translateX(-101%);
-    color:aqua;
   }
   
   .text2 h2::before {
@@ -85,4 +79,14 @@ body {
     100% {
       transform: translateX(200%);
     }
+  }
+
+.imagen:hover{
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  box-shadow: 0px 0px 15px 15px #eba674;
+  -webkit-box-shadow: 0px 0px 15px 15px #eba674 ;
+  width: 35%;
+  height: 35%;
+  box-align: left;
   }
