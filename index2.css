@@ -93,8 +93,8 @@ body {
 .imagen:hover{
   border-radius:50%;
   -webkit-border-radius:50%;
-  box-shadow: 0px 0px 15px 15px #eba674;
-  -webkit-box-shadow: 0px 0px 15px 15px #eba674 ;
+  box-shadow: 0px 0px 15px 15px #000000;
+  -webkit-box-shadow: 0px 0px 15px 15px #000000 ;
   width: 35%;
   height: 35%;
   box-align: left;
