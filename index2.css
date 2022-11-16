@@ -9,17 +9,7 @@ body {
     letter-spacing: 3px;
     font-size: medium;
   }
-.proxmox1 {
-    width: 35%;
-    height: 35%;
-    box-align: left;
-  }
-  
-.proxmox2 {
-    width: 35%;
-    height: 35%;
-    box-align: right;
-  }
+
 .back {
     width: 55px;
     height: 55px;
@@ -98,6 +88,4 @@ body {
   width: 35%;
   height: 35%;
   box-align: left;
-  
 }
-
