@@ -1,20 +1,21 @@
 body {
-    background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
-    padding: -10px;
-    text-align: center;
-    color: rgb(37, 102, 42);
-    text-shadow: none;
-    padding: auto;
-    margin: 5%;
-    letter-spacing: 3px;
-    font-size: medium;
-  }
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
+  padding: -10px;
+  text-align: center;
+  color: rgb(37, 102, 42);
+  text-shadow: none;
+  padding: auto;
+  margin: 5%;
+  letter-spacing: 3px;
+  font-size: medium;
+}
 
 .apache {
-    width: 45%;
-    height: 45%;
-  }
+  width: 45%;
+  height: 45%;
+}
 
+/* 
 .back {
     width: 55px;
     height: 55px;
@@ -81,33 +82,81 @@ body {
     100% {
       transform: translateX(200%);
     }
-  }
+  } */
 
 
-body{background-color:#1A1919;text-align:center;}
-
-.placeholder{
-  display:inline-block;
-  position:relative;
-  width:400px;
-  height:400px;
-  overflow:hidden;
-  box-sizing:border-box;
+body {
+  background-color: #1A1919;
+  text-align: center;
 }
 
-.gridContainer{
-  width:100%;
-  height:100%;
+.placeholder {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
-.gridTile
-{
-  position:absolute;
-  top:0px;
-  left:0px;
-  width:100%;
-  height:100%;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-origin:center;
+.gridContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.gridTile {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 5vh;
+  text-transform: uppercase;
+  position: relative;
+  color: #ccc;
+
+}
+
+.text1:before {
+  content: "Instalación de la píldora Apache";
+  position: absolute;
+  color: #262626;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  transform: translateX(-1200px);
+  transition: all 0.5s;
+}
+
+
+.text1:hover:before {
+  transform: translateX(0px);
+  width: 100%
+}
+
+.text2:before {
+  content: "Configuración de la píldora Apache";
+  position: absolute;
+  color: #262626;
+  top: 0;
+  left: 0;
+  width: 0%;
+  overflow: hidden;
+  transform: translateX(-7000px);
+  transition: all 0.5s;
+}
+
+
+.text2:hover:before {
+  transform: translateX(0px);
+  width: 100%;
 }
