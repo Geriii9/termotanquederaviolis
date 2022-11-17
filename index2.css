@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg");
   padding: -10px;
   text-align: center;
   color: rgb(37, 102, 42);
@@ -77,30 +77,15 @@ s .text2 h2:nth-of-type(2)::before,
     transform: translateX(200%);
   }
 
-<<<<<<< HEAD
+
 } */
-
-
 
 .imagen:hover {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   box-shadow: 0px 0px 15px 15px #000000;
   -webkit-box-shadow: 0px 0px 15px 15px #000000;
-=======
-.imagen:hover{
-  border-radius:100%;
-  -webkit-border-radius:50%;
-/*  box-shadow: 15px 15px 15px 15px #000000;
-  -webkit-box-shadow: 15px 15px 15px 15px #000000;*/
->>>>>>> c7e24a9 (.)
-  width: 35%;
-  height: 35%;
-  box-align: left;
-
-
 }
-
 /* h2:hover {
   color: rgb(122, 10, 187);
   text-shadow: 0 0 5px #0cd41c,
