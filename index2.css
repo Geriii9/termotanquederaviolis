@@ -89,7 +89,7 @@ s .text2 h2:nth-of-type(2)::before,
   width: 35%;
   height: 35%;
   box-align: left;
-<<<<<<< HEAD
+
 
 }
 
@@ -99,6 +99,5 @@ h2:hover {
     0 0 25px #033bf4,
     0 0 50px #d803f4,
     0 0 1000px #dcf403;
-=======
->>>>>>> 58b7886 (.)
+
 }
