@@ -15,7 +15,7 @@ body {
   height: 55px;
 }
 
-.text2 h2 {
+/* .text2 h2 {
   position: relative;
   overflow: hidden;
   display: block;
@@ -77,7 +77,7 @@ s .text2 h2:nth-of-type(2)::before,
     transform: translateX(200%);
   }
 
-}
+} */
 
 
 
@@ -93,11 +93,46 @@ s .text2 h2:nth-of-type(2)::before,
 
 }
 
-h2:hover {
-
+/* h2:hover {
+  color: rgb(122, 10, 187);
   text-shadow: 0 0 5px #0cd41c,
-    0 0 25px #033bf4,
-    0 0 50px #d803f4,
-    0 0 1000px #dcf403;
+    0 0 5px #0313f4,
+    0 0 10px #2f03f4,
+    0 0 1px #cf0000;
 
+} */
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 45px;
+  text-transform: uppercase;
+  position: relative;
+  color: #ccc;
+}
+
+h2:before {
+  content: "INSTALACIÓN PROXMOX";
+  position: absolute;
+  color: #262626;
+  top: 0;
+  left: 0;
+  width: 0%;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+#Configuraci:before {
+  content: "CONFIGURACIÓN DEL SERVIDOR EN PROXMOX";
+  position: absolute;
+  color: #262626;
+  top: 0;
+  left: 0;
+  width: 0%;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+h2:hover:before {
+  width: 100%;
 }
