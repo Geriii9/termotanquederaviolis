@@ -77,6 +77,7 @@ s .text2 h2:nth-of-type(2)::before,
     transform: translateX(200%);
   }
 
+<<<<<<< HEAD
 } */
 
 
@@ -86,6 +87,13 @@ s .text2 h2:nth-of-type(2)::before,
   -webkit-border-radius: 50%;
   box-shadow: 0px 0px 15px 15px #000000;
   -webkit-box-shadow: 0px 0px 15px 15px #000000;
+=======
+.imagen:hover{
+  border-radius:100%;
+  -webkit-border-radius:50%;
+/*  box-shadow: 15px 15px 15px 15px #000000;
+  -webkit-box-shadow: 15px 15px 15px 15px #000000;*/
+>>>>>>> c7e24a9 (.)
   width: 35%;
   height: 35%;
   box-align: left;
