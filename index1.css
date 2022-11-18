@@ -40,10 +40,18 @@ body {
 }
 
 img {
-  width: 300px;
+  width: 320px;
   height: 260px;
   border-radius: 50px 50px 70px 50px;
 }
+
+
+.img2 {
+  width: 320px;
+  height: 280px;
+  border-radius: 50px 50px 70px 50px;
+}
+
 
 .back {
   width: 20%;
