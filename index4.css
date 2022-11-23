@@ -1,111 +1,40 @@
-body {
-  background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
-  padding: -10px;
+ body {
+   background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
+   padding: -10px;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   text-shadow: none;
+   padding: auto;
+   margin: 5%;
+   letter-spacing: 3px;
+   font-size: medium;
+ }
+h1{
   text-align: center;
-  color: rgb(37, 102, 42);
-  text-shadow: none;
-  padding: auto;
-  margin: 5%;
-  letter-spacing: 3px;
-  font-size: medium;
 }
-
-.back {
-  width: 55px;
-  height: 55px;
-}
-
-/* .copy-link {
-  --height: 36px;
-
-  display: flex;
-  max-width: 250px;
-
-}
-
-.copy-link-input {
-
-
-  border: 1px solid #cccccc;
-  word-wrap: break-word;
-  word-break: break-all;
-  height: 70px;
-  width: 1000px;
-  resize: none;
-  overflow: hidden;
-
-
-}
-
-.copy-link-input:hover {
-  background: #eeeeee;
-}
-
-.copy-link-button {
-  flex-shrink: 0;
-  width: var(--height);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #dddddd;
-  color: #333333;
-
-  border: 1px solid #cccccc;
-  cursor: pointer;
-}
-
-.copy-link-button:hover {
-  background: #cccccc;
-}
-
-#myForm {
-  margin-top: 30px;
-  z-index: -1;
-  text-align: center;
-  height: 80px;
-} */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-pre[class*="language-"] {
-  position: relative;
-  overflow: auto;
-
-  /* make space  */
-  margin: 5px 0;
-  padding: 1.75rem 0 1.75rem 1rem;
+pre{
   border-radius: 10px;
+  border-style: outset;
+  padding: 10px;
+  border-width: 2px 2px;
+  width: auto;
+  
+
 }
+ button {
+   /* background-color: rgb(128, 115, 99);
+   padding: 10px; */
+   border-radius: 10px;
+   border-width: 2px;
+   position: absolute;
+   left: 85%;
 
-pre[class*="language-"] button {
-  position: absolute;
-  top: 5px;
-  right: 5px;
+ }
 
-  font-size: 0.9rem;
-  padding: 0.15rem;
-  background-color: #828282;
+ 
 
-  border: ridge 1px #7b7b7c;
-  border-radius: 5px;
-  text-shadow: #c4c4c4 0 0 2px;
-}
 
-pre[class*="language-"] button:hover {
-  cursor: pointer;
-  background-color: #bcbabb;
-}
-
-main {
-  display: grid;
-  max-width: 600px;
-  margin: 20px auto;
-}
-
-h1 {
-  font-size: 1.3rem;
-}
+ .back {
+   width: 55px;
+   height: 55px;
+ }
