@@ -78,7 +78,7 @@ h1 {
     font-size: 120px;
     text-transform: uppercase;
     position: relative;
-    color: #ccc;
+    color: rgb(161, 161, 161);
 }
 
 h1:before {
