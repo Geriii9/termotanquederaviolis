@@ -9,7 +9,7 @@
    text-shadow: none;
    padding: auto;
    margin: 5%;
-   letter-spacing: 3px;
+   letter-spacing: 2px;
    font-size: medium;
  }
 
@@ -30,6 +30,11 @@
    font-size: 1.0vw;
 
 
+ }
+
+ p {
+   font-size: 1.2vw;
+   
  }
 
  button {
