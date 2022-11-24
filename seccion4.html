@@ -17,18 +17,94 @@
 
     </div>
     <main>
-        <pre class="language css"><code >&lt;div class="box">
-            &lt;a href="seccion1.html" target="_self" class="a"> &lt;img src="ICON/sobrenosotros.jpg">&lt;/a>
-            &lt;span>Sobre nosotros&lt;/span>
-          &lt;/div> </code>
+        <h2>Esto es el CSS de la pagina principal </h2>
+        <pre class="language css"><code >
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2%;
+          }
+          
+          .column {
+            padding: 4% 2%;
+            margin: 2%;
+            background: white;
+          
+            width: 40%;
+            border: 1px solid #d6d6d6;
+            box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 3px;
+            transition: 0.2s all;
+          }
+          
+          .row:hover .column {
+            filter: blur(3px);
+            opacity: 0.5;
+            transform: scale(0.98);
+            box-shadow: none;
+          }
+          
+          .row:hover .column:hover {
+            transform: scale(1);
+            filter: blur(0px);
+            opacity: 1;
+            box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+          }</code>
+        
     </pre>
 
-        <p>And I'll tell you another thing..</p>
-        <pre><code class="language html" >&lt;div class="box drop3"&gt;&lt;/div&gt;</code></pre>
-        <p>No! Not finished..</p>
-        <pre><code class="language javascript" >console.log("finished");</code></pre>
+        <h2>Vanish</h2>
+        <pre><code class="language html" >.row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 2%;
+          }
+          
+          .column {
+            padding: 4% 2%;
+            margin: 2%;
+            background: white;
+          
+            width: 40%;
+            border: 1px solid #d6d6d6;
+            box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+            border-radius: 3px;
+            transition: 0.2s all;
+          }
+          
+          .row:hover .column {
+            filter: blur(3px);
+            opacity: 0.5;
+            transform: scale(0.98);
+            box-shadow: none;
+          }
+          
+          .row:hover .column:hover {
+            transform: scale(1);
+            filter: blur(0px);
+            opacity: 1;
+            box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+          }
+          
+          img {
+            width: 320px;
+            height: 260px;
+            border-radius: 50px 50px 70px 50px;
+          }
+          
+          
+          .img2 {
+            width: 320px;
+            height: 280px;
+            border-radius: 50px 50px 70px 50px;
+          }
+        </code></pre>
 
-        <pre><code class="language html" >&lt;div class="box drop3"&gt;&lt;/div&gt;</code></pre>
+        <!-- <pre><code class="language javascript" >            console.log("finished");</code></pre>
+
+        <pre><code class="language html" >          &lt;div class="box drop3"&gt;&lt;/div&gt;</code></pre> -->
     </main>
 
     <div>

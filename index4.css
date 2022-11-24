@@ -1,7 +1,10 @@
  body {
    background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
    padding: -10px;
-   text-align: center;
+   text-align: justify;
    color: rgb(0, 0, 0);
    text-shadow: none;
    padding: auto;
@@ -21,8 +24,10 @@
    border-width: 2px 2px;
    word-wrap: break-word;
    width: auto;
-
-
+   background-color: rgba(8, 8, 8, 0.534);
+   color: whitesmoke;
+   overflow: hidden;
+   font-size: 1.0vw;
 
 
  }
@@ -31,7 +36,8 @@
    border-radius: 10px;
    border-width: 2px;
    position: absolute;
-   left: 85%;
+   left: 7vw;
+   /*85%;*/
 
    color: #fff;
    background: #111;
@@ -81,7 +87,7 @@
    border-radius: 10px;
  }
 
- 
+
 
  @keyframes glowing {
    0% {
@@ -104,7 +110,7 @@
    font-size: 5vh;
    text-transform: uppercase;
    position: relative;
-   color: #ccc;
+   color: rgb(161, 161, 161);
 
  }
 
@@ -125,10 +131,16 @@
    transform: translateX(0px);
    width: 100%
  }
+
  .back {
-  width: 55px;
-  height: 55px;
-}
+   width: 55px;
+   height: 55px;
+   text-align: center !important;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
 
  .back {
    color: inherit;
