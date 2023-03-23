@@ -1,0 +1,191 @@
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg");
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  color: gray;
+  -webkit-font-smoothing: antialiased;
+}
+ 
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2%;
+}
+
+.column {
+  padding: 4% 2%;
+  margin: 2%;
+  background: white;
+
+  width: 40%;
+  border: 1px solid #d6d6d6;
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  transition: 0.2s all;
+}
+
+.row:hover .column {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scale(0.98);
+  box-shadow: none;
+}
+
+.row:hover .column:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
+}
+
+img {
+  width: 320px;
+  height: 260px;
+  border-radius: 50px 50px 70px 50px;
+}
+
+
+.img2 {
+  width: 320px;
+  height: 280px;
+  border-radius: 50px 50px 70px 50px;
+}
+
+
+.back {
+  width: 20%;
+  height: 20%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 1px 1px 1px 1px;
+}
+
+.back {
+  color: inherit;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  border-style: double;
+}
+
+.back {
+  background:
+    linear-gradient(to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)),
+    linear-gradient(to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1));
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  border-radius: 40px;
+  transition: background-size 40ms;
+}
+
+.back:hover {
+  background-size: 0 3px, 100% 3px;
+}
+
+/*
+
+body {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4% 4%;
+
+} 
+
+h2 {
+    position: relative;
+    left: 0%;
+    top: 50px;
+
+}
+
+
+p {
+
+    position: relative;
+    text-align: left;
+    bottom: 10vh;
+
+
+}
+
+.des {
+    text-align: left;
+}
+
+
+
+
+.Abdo {
+    background-color: #2d6c8a;
+    box-sizing: border-box;
+    border-radius: 10% 10%;
+    float: left;
+    left: 1000px;
+    width: 33%;
+    padding: 12px;
+    height: 500px;
+    transition: 1s;
+    margin: 2px;
+}
+
+.Abdo:hover {
+    color: #fff;
+    box-shadow: inset 100vh 0 0 0 #54b3d6;
+    transition: 1s;
+
+
+
+
+}
+
+
+.Adrian {
+    background-color: #8059c9;
+    box-sizing: border-box;
+    border-radius: 10% 10%;
+    float: left;
+    left: 1000px;
+    width: 33%;
+    padding: 12px;
+    height: 500px;
+    transition: 1s;
+    margin: 2px;
+}
+
+.Gerard {
+    background-color: #2d6c8a;
+    box-sizing: border-box;
+    border-radius: 10% 10%;
+    float: left;
+    left: 1000px;
+    margin: 2px;
+    width: 33%;
+    padding: 12px;
+    height: 500px;
+    transition: 1s;
+}
+
+
+.Adrian:hover {
+    color: #fff;
+    box-shadow: inset 100vh 0 0 0 #54b3d6;
+    ;
+    transition: 1s;
+
+}
+
+.Gerard:hover {
+    color: #fff;
+    box-shadow: inset 100vh 0 0 0 #54b3d6;
+    ;
+    transition: 1s;
+
+}
+*/

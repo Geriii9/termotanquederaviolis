@@ -1,0 +1,189 @@
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
+  padding: -10px;
+  text-align: center;
+  color: rgb(37, 102, 42);
+  text-shadow: none;
+  padding: auto;
+  margin: 5%;
+  letter-spacing: 3px;
+  font-size: medium;
+} 
+ 
+.apache {
+  width: 45%;
+  height: 45%;
+}
+
+
+.back {
+  width: 55px;
+  height: 55px;
+}
+
+ .back {
+   color: inherit;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+   border-style: double;
+ }
+
+ .back {
+   background:
+     linear-gradient(to right,
+       rgba(100, 200, 200, 1),
+       rgba(100, 200, 200, 1)),
+     linear-gradient(to right,
+       rgba(255, 0, 0, 1),
+       rgba(255, 0, 180, 1),
+       rgba(0, 100, 200, 1));
+   background-size: 100% 3px, 0 3px;
+   background-position: 100% 100%, 0 100%;
+   border-radius: 40px;
+   transition: background-size 40ms;
+ }
+
+ .back:hover {
+   background-size: 0 3px, 100% 3px;
+ }
+/* 
+.text2 h2 {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    line-height: 1.2;
+  }
+  
+  .text2 h2::after {
+    
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(36, 89, 204);
+    animation: a-ltr-after 2s cubic-bezier(.77, 0, .18, 1) forwards;
+    transform: translateX(-101%);
+    color:aqua;
+  }
+  
+  .text2 h2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--bg-color);
+    animation: a-ltr-before 2s cubic-bezier(.77, 0, .18, 1) forwards;
+    transform: translateX(0);
+  }
+  
+  .text2 h2:nth-of-type(1)::before,
+  .text2 h2:nth-of-type(1)::after {
+    animation-delay: 0s;
+  }
+  s
+  .text2 h2:nth-of-type(2)::before,
+  .text2 h2:nth-of-type(2)::after {
+    animation-delay: 0s;
+  }
+  
+  @keyframes a-ltr-after {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(101%);
+    }
+  }
+  
+  @keyframes a-ltr-before {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(200%);
+    }
+  } */
+
+
+body {
+  background-color: #1A1919;
+  text-align: center;
+}
+
+.placeholder {
+  display: inline-block;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.gridContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.gridTile {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: center;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 5vh;
+  text-transform: uppercase;
+  position: relative;
+  color: rgb(161, 161, 161);
+
+}
+
+.text1:before {
+  content: "Instalación de la píldora Apache";
+  position: absolute;
+  color: #262626;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  transform: translateX(-1200px);
+  transition: all 0.5s;
+}
+
+
+.text1:hover:before {
+  transform: translateX(0px);
+  width: 100%
+}
+
+.text2:before {
+  content: "Configuración de la píldora Apache";
+  position: absolute;
+  color: #262626;
+  top: 0;
+  left: 0;
+  width: 0%;
+  overflow: hidden;
+  transform: translateX(-7000px);
+  transition: all 0.5s;
+}
+
+
+.text2:hover:before {
+  transform: translateX(0px);
+  width: 100%;
+}

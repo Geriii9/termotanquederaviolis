@@ -1,0 +1,175 @@
+ body {
+   background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: -10px;
+   text-align: justify;
+   color: rgb(37, 102, 42);
+   text-shadow: none;
+   padding: auto;
+   margin: 5%;
+   letter-spacing: 3px;
+   font-size: medium;
+ } 
+
+ h1 {
+   text-align: center;
+ }
+
+ pre {
+   border-radius: 10px;
+   border-style: outset;
+   padding: 10px;
+   border-width: 2px 2px;
+   word-wrap: break-word;
+   width: auto;
+   background-color: rgba(8, 8, 8, 0.534);
+   color: whitesmoke;
+   overflow: hidden;
+   font-size: 1.0vw;
+
+
+ }
+
+ p {
+   font-size: 1.2vw;
+   
+ }
+
+ button {
+   border-radius: 10px;
+   border-width: 2px;
+   position: absolute;
+   left: 7vw;
+   /*85%;*/
+
+   color: #fff;
+   background: #111;
+   cursor: pointer;
+   z-index: 0;
+   border-radius: 10px;
+ }
+
+ button:before {
+   content: '';
+   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   background-size: 400%;
+   z-index: -1;
+   filter: blur(5px);
+   width: calc(100% + 4px);
+   height: calc(100% + 4px);
+   animation: glowing 20s linear infinite;
+   opacity: 0;
+   transition: opacity .3s ease-in-out;
+   border-radius: 10px;
+ }
+
+ button:active {
+   color: #000
+ }
+
+ button:active:after {
+   background: transparent;
+ }
+
+ button:hover:before {
+   opacity: 1;
+ }
+
+ button:after {
+   z-index: -1;
+   content: '';
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: #111;
+   left: 0;
+   top: 0;
+   border-radius: 10px;
+ }
+
+
+
+ @keyframes glowing {
+   0% {
+     background-position: 0 0;
+   }
+
+   50% {
+     background-position: 400% 0;
+   }
+
+   100% {
+     background-position: 0 0;
+   }
+ }
+
+
+ h1 {
+   margin: 0;
+   padding: 0;
+   font-size: 5vh;
+   text-transform: uppercase;
+   position: relative;
+   color: rgb(161, 161, 161);
+
+ }
+
+ #explicaci:before {
+   content: "Explicación sobre el code";
+   position: absolute;
+   color: #262626;
+   top: 0;
+   left: 0;
+   width: 100%;
+   overflow: hidden;
+   transform: translateX(-1200px);
+   transition: all 0.5s;
+ }
+
+
+ #explicaci:hover:before {
+   transform: translateX(0px);
+   width: 100%
+ }
+
+ .back {
+   width: 55px;
+   height: 55px;
+   text-align: center !important;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+
+ .back {
+   color: inherit;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+   border-style: double;
+ }
+
+ .back {
+   background:
+     linear-gradient(to right,
+       rgba(100, 200, 200, 1),
+       rgba(100, 200, 200, 1)),
+     linear-gradient(to right,
+       rgba(255, 0, 0, 1),
+       rgba(255, 0, 180, 1),
+       rgba(0, 100, 200, 1));
+   background-size: 100% 3px, 0 3px;
+   background-position: 100% 100%, 0 100%;
+   border-radius: 40px;
+   transition: background-size 40ms;
+ }
+
+ .back:hover {
+   background-size: 0 3px, 100% 3px;
+ }
