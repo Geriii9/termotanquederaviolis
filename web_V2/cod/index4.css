@@ -1,17 +1,15 @@
- body {
-   background-image: url('https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg');
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding: -10px;
-   text-align: justify;
-   color: rgb(37, 102, 42);
-   text-shadow: none;
-   padding: auto;
-   margin: 5%;
-   letter-spacing: 3px;
-   font-size: medium;
- } 
+body {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/836/113/non_2x/abstract-pastel-colorful-gradient-background-concept-for-your-graphic-colorful-design-vector.jpg");
+
+  text-align: center;
+  color: rgb(37, 102, 42);
+  text-shadow: none;
+  padding: auto;
+
+  letter-spacing: 3px;
+  font-size: medium;
+  
+}
 
  h1 {
    text-align: center;
@@ -153,9 +151,54 @@
    font-family: 'Courier New', Courier, monospace;
    font-size: large;
    border-style: double;
+   
  }
 
+ .box{
+  background-color: lightgrey;
+  width: 500px;
+  padding: 8px;
+  margin: auto;
+  
+  text-align: center;
+  border-radius: 100px;
+  border: 5px solid rgb(255, 0, 0); /* set initial border color to red */
+  animation: border-color 8s linear infinite; /* add animation */
+ }
+
+ .boxText{
+  background-color: lightgrey;
+  width: 500px;
+  height: 400px;
+  border: 5px solid rgb(255, 0, 0); /* set initial border color to red */
+  animation: border-color 8s linear infinite; /* add animation */
+  padding: 8px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  
+  text-align: center;
+  border-radius: 50px;
+ }
+ @keyframes border-color {
+  0% {
+    border-color: rgb(255, 0, 0); /* red */
+  }
+  25% {
+    border-color: rgb(0, 255, 0); /* green */
+  }
+  50% {
+    border-color: rgb(0, 0, 255); /* blue */
+  }
+  75% {
+    border-color: rgb(255, 255, 0); /* yellow */
+  }
+  100% {
+    border-color: rgb(255, 0, 0); /* back to red */
+  }
+}
  .back {
+  
    background:
      linear-gradient(to right,
        rgba(100, 200, 200, 1),
