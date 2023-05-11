@@ -1,58 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index6.css?v=1.4" />
+    <link rel="icon" href="ICON/molecula.png" type="image/x-icon" />
+    <title>Webgrafia</title>
+  </head>
 
-<head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index6.css?v=1.4">
-        <link rel="icon" href="ICON/molecula.png" type="image/x-icon">
-        <title>Webgrafia</title>
-</head>
+  <body>
+    <div>
+      <p>
+        <img
+          src="/home/users/inf/wism2/a210902am/Documents/termotanquederaviolis/web_V2/Fotos/mysticism-g2f3af1190_1280.jpg"
+          alt=""
+          height="650px"
+          width="300px"
+          style="float: right; border-radius: 20px"
+        />
+      </p>
+      <p>
+        <img
+          src="/home/users/inf/wism2/a210902am/Documents/termotanquederaviolis/web_V2/Fotos/mysticism-g2f3af1190_1280.jpg"
+          alt=""
+          height="650px"
+          width="300px"
+          style="float: left; border-radius: 20px"
+        />
+      </p>
+    </div>
+    <div class="box">
+      <p>Mantenerse en contacto</p>
+    </div>
+    <div class="boxText">
+      <div id="container">
+        <form action="#" method="post" id="contact_form">
+          <div class="name">
+            <label for="name"></label>
+            <input
+              type="text"
+              placeholder="Mi nombre es"
+              name="name"
+              id="name_input"
+              required
+            />
+          </div>
+          <div class="email">
+            <label for="email"></label>
+            <input
+              type="email"
+              placeholder="Mi e-mail es"
+              name="email"
+              id="email_input"
+              required
+            />
+          </div>
+          <div class="telephone">
+            <label for="name"></label>
+            <input
+              type="text"
+              placeholder="Mi número es"
+              name="telephone"
+              id="telephone_input"
+              required
+            />
+          </div>
+          <div class="subject">
+            <label for="subject"></label>
+            <select
+              placeholder="Subject line"
+              name="subject"
+              id="subject_input"
+              required
+            >
+              <option disabled hidden selected>Scape Room</option>
+              <option>Scape Room 1</option>
+              <option>Scape Room 2</option>
+              <option>Scape Room 3</option>
+            </select>
+          </div>
+          <div class="message">
+            <label for="message"></label>
+            <textarea
+              name="message"
+              placeholder="Me gustaria charlar sobre"
+              id="message_input"
+              cols="30"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Enviar Mensaje" id="form_button" />
+          </div>
+        </form>
+        <!-- // End form -->
+      </div>
+      <!-- // End #container -->
+    </div>
 
-<body> 
-        <div class="text">
-                <h1>Webgrafia</h1>
-                <br>
-                <div class="links">
-
-
-                        <p> <a href="https://www.youtube.com/watch?v=1KEbGYsF2bY" target="_blank" class="link">Dos
-                                        Efectos CSS muy
-                                        Sencillos
-                                        pero geniales para tus Páginas Web</a> </p>
-                        <br>
-                        <p> <a href="https://www.programandoamedianoche.com/2018/12/animaciones-y-efectos-para-usar-en-tu-sitio-web/"
-                                        class="link">Animaciones
-                                        y efectos</a></p>
-                        <br>
-                        <p> <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_script_src"
-                                        class="link">Text with
-                                        external
-                                        script</a></p>
-                        <br>
-                        <p> <a href="https://stackoverflow.com/questions/45071353/copy-text-string-on-click"
-                                        class="link">Copiar
-                                        string con
-                                        un click</a></p>
-                        <br>
-                        <p> <a href="https://betterprogramming.pub/link-css-and-js-files-with-html-file-f848d00b42e8"
-                                        class="link">Linkear
-                                        scripts de css y javascript a html</a></p>
-                        <br>
-                        <p> <a href="http://w3api.com/HTML/a/href/" class="link">Enlazar</a></p>
-                        <br>
-                        <p> <a href="http://www.forosdelweb.com/f13/no-permitir-ni-subir-ni-bajar-bloquear-scroll-479069/"
-                                        class="link">Bloquear
-                                        scroll</a></p>
-                </div>
-                <div>
-
-
-
-                        <a href="index.html">
-                                <img class="back" src="../ICON/back.png" alt="Pagina principal">
-                        </a>
-                </div>
-        </div>
-</body>
+    <div>
+      <div>
+        <a href="index.html">
+          <img class="back" src="../ICON/back.png" alt="Pagina principal" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
